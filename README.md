@@ -5,7 +5,7 @@ Módulo 3 – Banco de dados da Resilia
 **Proposta deste Projeto .**
 
 Nosso time foi escalado pela Resilia Educacao para modernizar o processo de armazenamento de dados e construção para gerenciamento da estrutura de ensino da empresa.
-Para isso, será utilizamos como ponto de melhoria o descritivo que será apresentado a seguir:
+Para isso, desenvolvemos um Banco de Dados em SQL utlizando como ponto de melhoria o descritivo que será apresentado a seguir:
 
 Hoje dentro da Resilia, são armazenadas diversas informações do braço de ensino da empresa como dados sobre os estudantes, pessoas facilitadoras, turmas, módulos e cursos em planilhas. Essas informações são colocadas em planilhas diferentes, dificultando muitas das vezes a extração de dados estratégicos para a empresa.
    
