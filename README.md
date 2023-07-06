@@ -2,7 +2,7 @@
 
 
 
-**Proposta deste Projeto .**
+**Proposta/Finalidade deste Projeto .**
 
 Nosso time foi escalado pela Resilia Educacao para modernizar o processo de armazenamento de dados e construção para gerenciamento da estrutura de ensino da empresa.
 Para isso, desenvolvemos um Banco de Dados em SQL utlizando como ponto de melhoria o descritivo que será apresentado a seguir:
@@ -28,16 +28,16 @@ Hoje dentro da Resilia, são armazenadas diversas informações do braço de ens
 - Coloque seu nome aqui (Pessoa Colaboradora 2) <a href="https://www.linkedin.com/in/coloque seu linkein aqui igual ao meu/">
         <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
 
-### Ferramentas utilizadas para desenvolvimento deste projeto.
+### Ferramentas utilizadas para desenvolvimento deste projeto:
 
-Windows 11
-Diagrama Conceitual = draw.io (site acessado pelo navegador Google Chrome Versao 114.0.5735.198 para Mac Os 10.13.6
-Diagrama Lógico  
-Base de Dados SQL criada em SQL no Postgre versao (x.x.x)
-Consultas executadas no Postgre versao (x.x.x)
- 
-
-TRELLO , WHATSAPP, DISCORD 
+- Windows 11
+- Diagrama Conceitual = draw.io (site acessado pelo navegador Google Chrome Versao 114.0.5735.198 para Mac Os 10.13.6
+- Diagrama Lógico  
+- Base de Dados SQL criada em SQL no Postgre versao (x.x.x)
+- Consultas executadas no Postgre versao (x.x.x)
+- TRELLO
+- WHATSAPP
+- DISCORD 
 
 #### Instrucoes de uso:
 
