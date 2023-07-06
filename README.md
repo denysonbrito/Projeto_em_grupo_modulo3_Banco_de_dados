@@ -12,7 +12,7 @@ Hoje dentro da Resilia, são armazenadas diversas informações do braço de ens
  
 ## Squad 2 
 
-- Coloque seu nome aqui (Pessoa Co-facilitadora)<a href="https://www.linkedin.com/in/coloque seu linkein aqui igual ao meu/">
+- Gustavo Daher (Pessoa Co-facilitadora)<a href="https://www.linkedin.com/in/gustavo-daher-/">
         <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
 
 - Coloque seu nome aqui (Pessoa Gestora de Gente e Engajamento)<a href="https://www.linkedin.com/in/coloque seu linkein aqui igual ao meu">
