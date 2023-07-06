@@ -1,4 +1,4 @@
-# Projeto módulo3 - Banco de dados Resília
+# Projeto Banco de dados Resília (M3)
 
 
 
