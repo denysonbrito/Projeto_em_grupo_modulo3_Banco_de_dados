@@ -2,7 +2,7 @@
 
 
 
-**Proposta/Finalidade deste Projeto .**
+**Proposta/Finalidade deste Projeto :**
 
 Nosso time foi escalado pela Resilia Educacao para modernizar o processo de armazenamento de dados e construção para gerenciamento da estrutura de ensino da empresa.
 Para isso, desenvolvemos um Banco de Dados em SQL utlizando como ponto de melhoria o descritivo que será apresentado a seguir:
