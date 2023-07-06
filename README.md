@@ -1,5 +1,5 @@
-# Projeto_modulo3_Banco_de_dados
-Módulo 3 – Banco de dados da Resilia
+# Projeto_modulo3_Banco_de_dados Resília
+
 
 
 **Proposta deste Projeto .**
@@ -32,7 +32,7 @@ Hoje dentro da Resilia, são armazenadas diversas informações do braço de ens
 
 Windows 11
 Diagrama Conceitual = draw.io (site acessado pelo navegador Google Chrome Versao 114.0.5735.198 para Mac Os 10.13.6
-Diagrama Lógico = 
+Diagrama Lógico  
 Base de Dados SQL criada em SQL no Postgre versao (x.x.x)
 Consultas executadas no Postgre versao (x.x.x)
  
