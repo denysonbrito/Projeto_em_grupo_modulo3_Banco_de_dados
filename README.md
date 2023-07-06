@@ -44,13 +44,13 @@ Hoje dentro da Resilia, são armazenadas diversas informações do braço de ens
 1- Crie uma base de dados no programa Postgre Sql para Windows.
 
 2- Baixe o Arquivo * :   criadorDasTabelas.sql 
-Este arquivo contem os scripts necessarios para criacao das tabelas
+   ( Este arquivo contem os scripts necessarios para criacao das tabelas )
 
 3- Baixe o arquivo * : PopuladorDeTabelas.sql 
-(este arquivo ira popular as tabelas)
+   ( Este arquivo ira popular as tabelas )
 
 4- Baixe o arquivo * : Consultas.sql 
-Este arquivo ira realizar as consultas no Postgre Sql
+   (Este arquivo ira realizar as consultas no Postgre Sql )
 
 ((* Todos os arquivos necessários estao localizados na raiz deste repositório.))
 
