@@ -25,7 +25,7 @@ Hoje dentro da Resilia, são armazenadas diversas informações do braço de ens
         <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
 
 
-- Coloque seu nome aqui (Pessoa Colaboradora 2) <a href="https://www.linkedin.com/in/coloque seu linkein aqui igual ao meu/">
+- Denyson de Brito (Pessoa Colaboradora 2) <a href="https://www.linkedin.com/in/denyson-analista-de-dados/">
         <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
 
 ### Ferramentas utilizadas para desenvolvimento deste projeto:
