@@ -33,12 +33,12 @@ CREATE TABLE turma
 CREATE TABLE modulo
 (
 	id_modulo SERIAL PRIMARY KEY NOT NULL, -- Definindo id_modulo como a PK da tabela, e usando NOT NULL restringir que o campo seja nulo
-	modulo_0 VARCHAR (25), -- Criando coluna modulo_0 na tabela modulo_0 , com o varchar com o limite de 25 caracteres 
-	modulo_1 VARCHAR (25), -- Criando coluna modulo_1 na tabela modulo_0 , com o varchar com o limite de 25 caracteres 
-	modulo_2 VARCHAR (25), -- Criando coluna modulo_2 na tabela modulo_0 , com o varchar com o limite de 25 caracteres 
-	modulo_3 VARCHAR (25), -- Criando coluna modulo_3 na tabela modulo_0 , com o varchar com o limite de 25 caracteres 
-	modulo_4 VARCHAR (25), -- Criando coluna modulo_4 na tabela modulo_0 , com o varchar com o limite de 25 caracteres 
-	modulo_5 VARCHAR (25) -- Criando coluna modulo_5 na tabela modulo_0 , com o varchar com o limite de 25 caracteres 
+	modulo_0 VARCHAR (50), -- Criando coluna modulo_0 na tabela modulo_0 , com o varchar com o limite de 25 caracteres 
+	modulo_1 VARCHAR (50), -- Criando coluna modulo_1 na tabela modulo_0 , com o varchar com o limite de 25 caracteres 
+	modulo_2 VARCHAR (50), -- Criando coluna modulo_2 na tabela modulo_0 , com o varchar com o limite de 25 caracteres 
+	modulo_3 VARCHAR (50), -- Criando coluna modulo_3 na tabela modulo_0 , com o varchar com o limite de 25 caracteres 
+	modulo_4 VARCHAR (50), -- Criando coluna modulo_4 na tabela modulo_0 , com o varchar com o limite de 25 caracteres 
+	modulo_5 VARCHAR (50) -- Criando coluna modulo_5 na tabela modulo_0 , com o varchar com o limite de 25 caracteres 
 );
 
 CREATE TABLE curso 
