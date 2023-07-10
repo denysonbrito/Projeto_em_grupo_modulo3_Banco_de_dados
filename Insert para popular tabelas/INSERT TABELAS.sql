@@ -7,7 +7,7 @@ VALUES ('Introdução à lógica de programação', 'Lógica de programação',
 INSERT INTO MODULO VALUES (2, 'Introdução à programação JavaScript', 
 'Princípios básicos da programação Java', 'Conceitos e testes avançados de Java',
 'API', 'Algoritmos Avançados', 'Projeto de Sistemas Avançado')
-INSERT INTO MODULO VALUES (3, 'Lógica e programação de computadores', 'Banco de dado', 
+INSERT INTO MODULO VALUES (3, 'Lógica e programação de computadores', 'Banco de dados', 
 'Fundamentos de sistemas web', 'Programação orientada a objetos', 
 'Ciência de dados e inteligência artificial',  'Infraestrutura de sistemas computacionais')
 
