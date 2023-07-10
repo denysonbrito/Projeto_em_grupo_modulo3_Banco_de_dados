@@ -7,9 +7,9 @@ CREATE TABLE estudante -- Criando a Tabela Estudante
 	idade INT, -- Criando a coluna idade na tabela Estudante, com o tipo de dado INT (inteiro) que receberá a idade do estudante 
 	escolaridade VARCHAR(100), -- Criando coluna escolaridade na tabela Estudante, com o limite de 100 caracteres 
 	estado VARCHAR(25), -- Criando coluna estado na tabela Estudante, com o limite de 25 caracteres 
-	telefone VARCHAR(25), -- Criando coluna telefone na tabela Estudante, com o limite de 50 caracteres 
+	situacao VARCHAR(100), -- Criando coluna situacao na tabela Estudante, com o limite de 100 caracteres 
 	email VARCHAR(50), -- Criando coluna email na tabela Estudante, com o limite de 50 caracteres 
-	situacao VARCHAR(100) -- Criando coluna situacao na tabela Estudante, com o limite de 100 caracteres 
+	telefone VARCHAR(25) -- Criando coluna telefone na tabela Estudante, com o limite de 50 caracteres 
 );
 
 CREATE TABLE pessoa_facilitadora_tech 
@@ -43,7 +43,7 @@ CREATE TABLE modulo
 
 CREATE TABLE curso 
 (
-	id_curso SERIAL PRIMARY KEY NOT NULL, 
+	id_curso INT NOT NULL, 
 	nome VARCHAR(50), 
 	carga_horaria INT, 
 	id_estudante INT,
