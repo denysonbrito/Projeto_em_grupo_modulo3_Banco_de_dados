@@ -18,7 +18,7 @@ Hoje dentro da Resilia, são armazenadas diversas informações do braço de ens
 - Jaqueline Santos Cunha (Pessoa Gestora de Gente e Engajamento)<a href="https://www.linkedin.com/in/jaqueline-data-analitics">
         <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
         
-- Coloque seu nome aqui (Pessoa Gestora de Conhecimento) <a href="https://www.linkedin.com/in/coloque seu linkein aqui igual ao meu">
+- Marcos Retondar (Pessoa Gestora de Conhecimento) <a href="https://www.linkedin.com/in/marcos-retondar/">
         <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
 
 - Thiago Bernardes Chechia (Pessoa Colaboradora 1) <a href="https://www.linkedin.com/in/thiagochechia/">
@@ -52,7 +52,7 @@ Hoje dentro da Resilia, são armazenadas diversas informações do braço de ens
 4- Baixe o arquivo * :      Consultas.sql 
    (Este arquivo ira realizar as consultas no Postgre Sql )
 
-((* Todos os arquivos necessários estao localizados na raiz deste repositório.))
+((* Todos os arquivos necessários estao localizados na Pasta Arquivos na raiz deste repositório.))
 
 Abra os Arquivos um por um comecando pelo Criador de tabelas e assim sucessivamente na ordem que 
 foram baixados , execute os comandos utlizando a Query Tool .
