@@ -52,7 +52,7 @@ Hoje dentro da Resilia, são armazenadas diversas informações do braço de ens
 4- Baixe o arquivo * :      Consultas.sql 
    (Este arquivo ira realizar as consultas no Postgre Sql )
 
-((* Todos os arquivos necessários estao localizados na raiz deste repositório.))
+((* Todos os arquivos necessários estao localizados na Pasta Arquivos na raiz deste repositório.))
 
 Abra os Arquivos um por um comecando pelo Criador de tabelas e assim sucessivamente na ordem que 
 foram baixados , execute os comandos utlizando a Query Tool .
