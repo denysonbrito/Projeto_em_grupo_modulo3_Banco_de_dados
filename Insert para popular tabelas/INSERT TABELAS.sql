@@ -164,3 +164,32 @@ VALUES (3, 'ANALISE DE SISTEMAS', 460, 69, 2, 2, 5, 3)
 INSERT INTO CURSO (ID_CURSO, NOME, CARGA_HORARIA, ID_ESTUDANTE, ID_PESSOA_FACILITADORA_TECH, ID_PESSOA_FACILITADORA_SOFT, ID_TURMA, ID_MODULO) 
 VALUES (3, 'ANALISE DE SISTEMAS', 460, 70, 2, 2, 5, 3)
 
+
+
+-- Insert turma
+
+INSERT INTO turma (nome)
+VALUES ('Analista de dados mercado livre'),
+       ('Analista de dados ifood'),
+       ('Analista de dados rappi'),
+	   ('Formação WebDev Full Stack Java'),
+       ('Formação Análise de Sistemas');
+
+
+
+
+INSERT INTO pessoa_facilitadora_tech (nome)
+VALUES ('João Silva'),
+       ('Maria Santos'),
+       ('Pedro Almeida'),
+       ('Fernanda Costa'),
+       ('Ricardo Oliveira');
+
+
+INSERT INTO pessoa_facilitadora_soft (nome)
+VALUES ('Ana Souza'),
+       ('Luiz Oliveira'),
+       ('Carla Pereira'),
+       ('Mariana Santos'),
+       ('Paulo Mendes');
+
