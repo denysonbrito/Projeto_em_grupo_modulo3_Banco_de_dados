@@ -33,8 +33,8 @@ Hoje dentro da Resilia, são armazenadas diversas informações do braço de ens
 - Windows 11
 - Diagrama Conceitual = draw.io (site acessado pelo navegador Google Chrome Versao 114.0.5735.198 para Mac Os 10.13.6
 - Diagrama Lógico  
-- Base de Dados SQL criada em SQL no Postgre versao (x.x.x)
-- Consultas executadas no Postgre versao (x.x.x)
+- Base de Dados SQL criada em SQL no Postgre versao (15)
+- Consultas executadas no PgAdmin4 versao (7.2)
 - TRELLO
 - WHATSAPP
 - DISCORD 
