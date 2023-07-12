@@ -65,8 +65,50 @@ FROM view_facilitadores_soft_multiturma;
 
 
 ----------------------------------------------------------------------
+-- 3. Crie uma view que selecione a porcentagem de estudantes com status de evasão agrupados por turma;
 
+CREATE VIEW percentual_de_evasao_por_turma AS
+SELECT
+    turma.nome AS nome_turma,
+    (COUNT(CASE WHEN estudante.situacao = 'inativo' THEN 1 END) / COUNT(*)::FLOAT) * 100 AS porcentagem_evasao
+FROM
+    estudante
+INNER JOIN
+    curso ON estudante.id_estudante = curso.id_estudante
+INNER JOIN 
+	turma ON curso.id_turma = turma.id_turma
+GROUP BY
+    turma.nome;
 
+-- Consulta da view 
+SELECT * FROM percentual_de_evasao_por_turma
 
+----------------------------------------------------------------------
+--4. Crie um trigger para ser disparado quando o atributo status de um estudante for atualizado e inserir um novo dado em uma tabela de log.
+CREATE OR REPLACE FUNCTION 
+atualizacao_situacao_estudante() RETURNS
+trigger AS $$
+BEGIN 
+   INSERT INTO log_estudante_situacao
+    (id_estudante, data_alteracao, situacao)
+   VALUES
+    (NEW.id_estudante, NOW(), NEW.situacao);
 
+RETURN NULL;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER tg_atualiza_situacao_estudante
+    AFTER UPDATE
+    ON estudante
+FOR EACH ROW
+    EXECUTE PROCEDURE atualizacao_situacao_estudante()
+
+-- teste de UPDATE na situacao
+UPDATE ESTUDANTE SET SITUACAO='inativo' where id_estudante = 1
+
+--consulta tabela log_estudante_situacao
+select * from log_estudante_situacao
+
+----------------------------------------------------------------------
 
