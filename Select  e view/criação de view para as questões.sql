@@ -111,4 +111,16 @@ UPDATE ESTUDANTE SET SITUACAO='inativo' where id_estudante = 1
 select * from log_estudante_situacao
 
 ----------------------------------------------------------------------
+-- 5. Uma empresa parceira deseja saber os alunos que não concluiram o ensino 
+-- médio por turma, para que possam realizar o sorteio de 5 bolsas de estudos (EJA - ENSINO MÉDIO) para cada turma.
 
+SELECT TURMA.ID_TURMA, TURMA.NOME, ESTUDANTE.ID_ESTUDANTE AS MATRÍCULA, ESTUDANTE.NOME, estudante.escolaridade FROM ESTUDANTE
+estudante
+INNER JOIN
+    curso ON estudante.id_estudante = curso.id_estudante
+INNER JOIN 
+	turma ON curso.id_turma = turma.id_turma
+WHERE estudante.escolaridade LIKE 'Fundamental Completo' 
+GROUP BY
+    TURMA.ID_TURMA, turma.nome, ESTUDANTE.NOME, estudante.escolaridade, MATRÍCULA
+ORDER BY TURMA.ID_TURMA

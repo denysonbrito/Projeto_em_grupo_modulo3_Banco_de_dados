@@ -1,3 +1,31 @@
+
+-- Insert facilitador tech
+
+INSERT INTO pessoa_facilitadora_tech (nome)
+VALUES ('João Silva'),
+       ('Maria Santos'),
+       ('Pedro Almeida'),
+       ('Fernanda Costa'),
+       ('Ricardo Oliveira');
+
+-- Insert facilitador soft
+
+INSERT INTO pessoa_facilitadora_soft (nome)
+VALUES ('Ana Souza'),
+       ('Luiz Oliveira'),
+       ('Carla Pereira'),
+       ('Mariana Santos'),
+       ('Paulo Mendes');
+
+-- Insert turma
+
+INSERT INTO turma (nome)
+VALUES ('Analista de dados mercado livre'),
+       ('Analista de dados ifood'),
+       ('Analista de dados rappi'),
+	   ('Formação WebDev Full Stack Java'),
+       ('Formação Análise de Sistemas');
+
 -- Inserir dados para popular a tabela modulo
 
 INSERT INTO modulo(modulo_0,modulo_1,modulo_2,modulo_3,modulo_4,modulo_5) 
@@ -11,7 +39,7 @@ INSERT INTO MODULO VALUES (3, 'Lógica e programação de computadores', 'Banco 
 'Fundamentos de sistemas web', 'Programação orientada a objetos', 
 'Ciência de dados e inteligência artificial',  'Infraestrutura de sistemas computacionais')
 
--- INSERT ALUNOS TURMA ANALISE DE DADOS MERCADO LIVRE
+-- INSERT CURSO - TURMA ANALISE DE DADOS MERCADO LIVRE
 INSERT INTO CURSO (ID_CURSO, NOME, CARGA_HORARIA, ID_ESTUDANTE, ID_PESSOA_FACILITADORA_TECH, ID_PESSOA_FACILITADORA_SOFT, ID_TURMA, ID_MODULO) 
 VALUES (1, 'ANALISE DE DADOS', 460, 1, 1, 1, 1, 1)
 INSERT INTO CURSO (ID_CURSO, NOME, CARGA_HORARIA, ID_ESTUDANTE, ID_PESSOA_FACILITADORA_TECH, ID_PESSOA_FACILITADORA_SOFT, ID_TURMA, ID_MODULO) 
@@ -41,7 +69,7 @@ VALUES (1, 'ANALISE DE DADOS', 460, 13, 1, 1, 1, 1)
 INSERT INTO CURSO (ID_CURSO, NOME, CARGA_HORARIA, ID_ESTUDANTE, ID_PESSOA_FACILITADORA_TECH, ID_PESSOA_FACILITADORA_SOFT, ID_TURMA, ID_MODULO) 
 VALUES (1, 'ANALISE DE DADOS', 460, 14, 1, 1, 1, 1)
 
--- INSERT ALUNOS TURMA ANALISE DE DADOS IFOOD
+-- INSERT CURSO - TURMA ANALISE DE DADOS IFOOD
 INSERT INTO CURSO (ID_CURSO, NOME, CARGA_HORARIA, ID_ESTUDANTE, ID_PESSOA_FACILITADORA_TECH, ID_PESSOA_FACILITADORA_SOFT, ID_TURMA, ID_MODULO) 
 VALUES (1, 'ANALISE DE DADOS', 460, 15, 1, 1, 2, 1)
 INSERT INTO CURSO (ID_CURSO, NOME, CARGA_HORARIA, ID_ESTUDANTE, ID_PESSOA_FACILITADORA_TECH, ID_PESSOA_FACILITADORA_SOFT, ID_TURMA, ID_MODULO) 
@@ -71,7 +99,7 @@ VALUES (1, 'ANALISE DE DADOS', 460, 27, 1, 1, 2, 1)
 INSERT INTO CURSO (ID_CURSO, NOME, CARGA_HORARIA, ID_ESTUDANTE, ID_PESSOA_FACILITADORA_TECH, ID_PESSOA_FACILITADORA_SOFT, ID_TURMA, ID_MODULO) 
 VALUES (1, 'ANALISE DE DADOS', 460, 28, 1, 1, 2, 1)
 
--- INSERT ALUNOS TURMA ANALISE DE DADOS RAPPI
+-- INSERT CURSO - TURMA ANALISE DE DADOS RAPPI
 
 INSERT INTO CURSO (ID_CURSO, NOME, CARGA_HORARIA, ID_ESTUDANTE, ID_PESSOA_FACILITADORA_TECH, ID_PESSOA_FACILITADORA_SOFT, ID_TURMA, ID_MODULO) 
 VALUES (1, 'ANALISE DE DADOS', 460, 29, 2, 2, 3, 1)
@@ -102,7 +130,7 @@ VALUES (1, 'ANALISE DE DADOS', 460, 41, 2, 2, 3, 1)
 INSERT INTO CURSO (ID_CURSO, NOME, CARGA_HORARIA, ID_ESTUDANTE, ID_PESSOA_FACILITADORA_TECH, ID_PESSOA_FACILITADORA_SOFT, ID_TURMA, ID_MODULO) 
 VALUES (1, 'ANALISE DE DADOS', 460, 42, 2, 2, 3, 1)
 
--- INSERT ALUNOS TURMA Formação WebDev Full Stack Java
+-- INSERT CURSO - TURMA Formação WebDev Full Stack Java
 
 INSERT INTO CURSO (ID_CURSO, NOME, CARGA_HORARIA, ID_ESTUDANTE, ID_PESSOA_FACILITADORA_TECH, ID_PESSOA_FACILITADORA_SOFT, ID_TURMA, ID_MODULO) 
 VALUES (2, 'WEBDEV FULL STACK JAVA', 460, 43, 3, 3, 4, 2)
@@ -133,7 +161,7 @@ VALUES (2, 'WEBDEV FULL STACK JAVA', 460, 55, 3, 3, 4, 2)
 INSERT INTO CURSO (ID_CURSO, NOME, CARGA_HORARIA, ID_ESTUDANTE, ID_PESSOA_FACILITADORA_TECH, ID_PESSOA_FACILITADORA_SOFT, ID_TURMA, ID_MODULO) 
 VALUES (2, 'WEBDEV FULL STACK JAVA', 460, 56, 3, 3, 4, 2)
 
--- INSERT ALUNOS TURMA Formação Análise de Sistemas
+-- INSERT CURSO - TURMA Formação Análise de Sistemas
 
 INSERT INTO CURSO (ID_CURSO, NOME, CARGA_HORARIA, ID_ESTUDANTE, ID_PESSOA_FACILITADORA_TECH, ID_PESSOA_FACILITADORA_SOFT, ID_TURMA, ID_MODULO) 
 VALUES (3, 'ANALISE DE SISTEMAS', 460, 57, 2, 2, 5, 3)
@@ -164,32 +192,4 @@ VALUES (3, 'ANALISE DE SISTEMAS', 460, 69, 2, 2, 5, 3)
 INSERT INTO CURSO (ID_CURSO, NOME, CARGA_HORARIA, ID_ESTUDANTE, ID_PESSOA_FACILITADORA_TECH, ID_PESSOA_FACILITADORA_SOFT, ID_TURMA, ID_MODULO) 
 VALUES (3, 'ANALISE DE SISTEMAS', 460, 70, 2, 2, 5, 3)
 
-
-
--- Insert turma
-
-INSERT INTO turma (nome)
-VALUES ('Analista de dados mercado livre'),
-       ('Analista de dados ifood'),
-       ('Analista de dados rappi'),
-	   ('Formação WebDev Full Stack Java'),
-       ('Formação Análise de Sistemas');
-
-
-
-
-INSERT INTO pessoa_facilitadora_tech (nome)
-VALUES ('João Silva'),
-       ('Maria Santos'),
-       ('Pedro Almeida'),
-       ('Fernanda Costa'),
-       ('Ricardo Oliveira');
-
-
-INSERT INTO pessoa_facilitadora_soft (nome)
-VALUES ('Ana Souza'),
-       ('Luiz Oliveira'),
-       ('Carla Pereira'),
-       ('Mariana Santos'),
-       ('Paulo Mendes');
 
