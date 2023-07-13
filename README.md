@@ -46,10 +46,10 @@ Hoje dentro da Resilia, são armazenadas diversas informações do braço de ens
 2- Baixe o Arquivo * :      Criacao_tabelas.sql 
    ( Este arquivo contem os scripts necessarios para criacao das tabelas )
 
-3- Baixe o arquivo * :      PopuladorDeTabelas.sql 
+3- Baixe o arquivo * :      Inserts.sql 
    ( Este arquivo ira popular as tabelas )
 
-4- Baixe o arquivo * :      Consultas.sql 
+4- Baixe o arquivo * :      Querys, view e trigger.sql 
    (Este arquivo ira realizar as consultas no Postgre Sql )
 
 ((* Todos os arquivos necessários estao localizados na Pasta Arquivos na raiz deste repositório.))
