@@ -31,13 +31,14 @@ Hoje dentro da Resilia, são armazenadas diversas informações do braço de ens
 ### Ferramentas utilizadas para desenvolvimento deste projeto:
 
 - Windows 11
-- Diagrama Conceitual = draw.io (site acessado pelo navegador Google Chrome Versao 114.0.5735.198 para Mac Os 10.13.6
-- Diagrama Lógico  
+- Diagrama Conceitual = site draw.io (site acessado pelo navegador Google Chrome Versao 114.0.5735.198)
+- Diagrama Lógico  = site draw.io (site acessado pelo navegador Google Chrome Versao 114.0.5735.198)
 - Base de Dados SQL criada em SQL no Postgre versao (15)
 - Consultas executadas no PgAdmin4 versao (7.2)
 - TRELLO
 - WHATSAPP
 - DISCORD 
+- CANVA
 
 #### Instrucoes de uso:
 
