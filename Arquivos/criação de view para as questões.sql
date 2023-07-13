@@ -12,7 +12,7 @@ FROM estudante;
 --Criacao de view para  quantidade total de estudantes  
 CREATE VIEW view_quantidade_estudantes AS
 SELECT COUNT(*) AS quantidade_estudantes
-FROM estudante; -- Criacao de view para a uantidade total de estudantes
+FROM estudante; -- Criacao de view para a quantidade total de estudantes
 
 --consultando a quantidade total de alunos pelo view
 SELECT quantidade_estudantes
