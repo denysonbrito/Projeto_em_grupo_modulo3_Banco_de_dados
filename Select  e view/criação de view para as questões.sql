@@ -69,8 +69,8 @@ FROM view_facilitadores_soft_multiturma;
 
 CREATE VIEW percentual_de_evasao_por_turma AS
 SELECT
-    turma.nome AS nome_turma,
-    (COUNT(CASE WHEN estudante.situacao = 'inativo' THEN 1 END) / COUNT(*)::FLOAT) * 100 AS porcentagem_evasao
+   (turma.nome),
+    CONCAT((COUNT(CASE WHEN estudante.situacao = 'inativo' THEN 1 END) / COUNT(*)::FLOAT) * 100, '%')
 FROM
     estudante
 INNER JOIN
