@@ -98,7 +98,7 @@ RETURN NULL;
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE TRIGGER tg_atualiza_situacao_estudante
+CREATE TRIGGER atualizacao_situacao_estudante
 	AFTER UPDATE
 	ON estudante
 FOR EACH ROW
