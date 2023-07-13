@@ -67,23 +67,4 @@ CREATE TABLE log_estudante_situacao
 
 );
 
-CREATE OR REPLACE FUNCTION 
-atualizacao_situacao_estudante() RETURNS
-trigger AS $$
-BEGIN 
-   INSERT INTO log_estudante_situacao
-    (id_estudante, data_alteracao, situacao)
-   VALUES
-    (NEW.id_estudante, NOW(), NEW.situacao);
-
-RETURN NULL;
-END;
-$$ LANGUAGE plpgsql;
-
-CREATE TRIGGER tg_atualiza_situacao_estudante
-    AFTER UPDATE
-    ON estudante
-FOR EACH ROW
-    EXECUTE PROCEDURE atualizacao_situacao_estudante()
-
 

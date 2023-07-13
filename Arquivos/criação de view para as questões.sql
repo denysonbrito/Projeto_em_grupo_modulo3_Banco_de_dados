@@ -4,7 +4,7 @@
 --1. Selecionar a quantidade total de estudantes cadastrados no banco;
 
 --Criacao de select para quantidade total de estudantes cadastrados no banco de dados   
-SELECT COUNT(*) AS quantidade_estudantes
+SELECT COUNT(id_estudante) AS quantidade_estudantes
 FROM estudante; 
 
 
@@ -67,10 +67,10 @@ FROM view_facilitadores_soft_multiturma;
 ----------------------------------------------------------------------
 -- 3. Crie uma view que selecione a porcentagem de estudantes com status de evasão agrupados por turma;
 
-CREATE VIEW percentual_de_evasao_por_turma AS
+CREATE OR REPLACE VIEW percentual_de_evasao_por_turma AS
 SELECT
    (turma.nome),
-    CONCAT((COUNT(CASE WHEN estudante.situacao = 'inativo' THEN 1 END) / COUNT(*)::FLOAT) * 100, '%')
+    CONCAT((COUNT(CASE WHEN estudante.situacao = 'inativo' THEN 1 END) / COUNT(*)::FLOAT) * 100, '%') AS percentual_evasão
 FROM
     estudante
 INNER JOIN
@@ -90,19 +90,19 @@ atualizacao_situacao_estudante() RETURNS
 trigger AS $$
 BEGIN 
    INSERT INTO log_estudante_situacao
-    (id_estudante, data_alteracao, situacao)
+	(id_estudante, data_alteracao, situacao)
    VALUES
-    (NEW.id_estudante, NOW(), NEW.situacao);
+	(NEW.id_estudante, NOW(), NEW.situacao);
 
 RETURN NULL;
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE TRIGGER atualizacao_situacao_estudante
-    AFTER UPDATE
-    ON estudante
+CREATE TRIGGER tg_atualiza_situacao_estudante
+	AFTER UPDATE
+	ON estudante
 FOR EACH ROW
-    EXECUTE PROCEDURE atualizacao_situacao_estudante()
+	EXECUTE PROCEDURE atualizacao_situacao_estudante()
 
 -- teste de UPDATE na situacao
 UPDATE ESTUDANTE SET SITUACAO='inativo' where id_estudante = 1
