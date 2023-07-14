@@ -35,14 +35,15 @@ Hoje dentro da Resilia, são armazenadas diversas informações do braço de ens
 - Diagrama Lógico  = site draw.io (site acessado pelo navegador Google Chrome Versao 114.0.5735.198)
 - Base de Dados SQL criada em SQL no Postgre versao (15)
 - Consultas executadas no PgAdmin4 versao (7.2)
-- TRELLO
-- WHATSAPP
-- DISCORD 
-- CANVA
+- TRELLO ( Organizacao de tarefas )
+- WHATSAPP ( comunicacao)
+- DISCORD ( comunicacao)
+- CANVA ( Criacao da Apresentacao)
+- GITHUB ( Repositorio do Projeto )
 
 #### Instrucoes de uso:
 
-1- Crie uma base de dados no programa Postgre Sql para Windows.
+1- Crie uma nova base de dados no programa Postgre Sql para Windows.
 
 2- Baixe o Arquivo * :      criacaoTabelas.sql 
    ( Este arquivo contem os scripts necessarios para criacao das tabelas )
